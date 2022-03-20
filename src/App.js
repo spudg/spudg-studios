@@ -1,5 +1,4 @@
 import * as React from "react";
-import "w3-css/w3.css";
 import "./index.css";
 import sentient from "./images/sentient.png";
 import fromzero from "./images/fromzero.png";
@@ -9,6 +8,7 @@ import insurely from "./images/insurely.png";
 import calculat from "./images/calculat.png";
 import logo from "./images/logo.png";
 import { AnimationWrapper } from "react-hover-animation";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -27,9 +27,9 @@ function App() {
               height="554"
             />
           </a>
-          <h1 class="w3-large">
+          <p class="w3-large">
             Simple and useful applications for anyone, anywhere
-          </h1>
+          </p>
         </header>
         <div
           class="w3-content w3-justify w3-text-grey w3-padding-64"
@@ -39,7 +39,6 @@ function App() {
             class="w3-row w3-center w3-padding-16 w3-light-grey w3-card w3-round-xxlarge"
             style={{ marginLeft: "10%", marginRight: "10%" }}
           >
-            <h4 class="w3-text-black">Current apps</h4>
             <div class="w3-quarter w3-section">
               <AnimationWrapper>
                 <a href="https://play.google.com/store/apps/details?id=com.spudg.sentient">
@@ -152,6 +151,7 @@ function App() {
                 </i>
                 Google Play: Spudg Studios
               </p>
+              <ContactForm />
             </div>
             <br />
           </div>
