@@ -41,7 +41,11 @@ function App() {
           >
             <div class="w3-quarter w3-section">
               <AnimationWrapper>
-                <a href="https://play.google.com/store/apps/details?id=com.spudg.sentient">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.spudg.sentient"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     src={sentient}
                     alt="Sentient"
@@ -56,7 +60,11 @@ function App() {
             </div>
             <div class="w3-quarter w3-section">
               <AnimationWrapper>
-                <a href="https://play.google.com/store/apps/details?id=com.spudg.myzo">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.spudg.myzo"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     src={myzo}
                     alt="Myzo"
@@ -71,7 +79,11 @@ function App() {
             </div>
             <div class="w3-quarter w3-section">
               <AnimationWrapper>
-                <a href="https://play.google.com/store/apps/details?id=com.spudg.calculat">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.spudg.calculat"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     src={calculat}
                     alt="Calculat"
@@ -86,7 +98,11 @@ function App() {
             </div>
             <div class="w3-quarter w3-section">
               <AnimationWrapper>
-                <a href="https://play.google.com/store/apps/details?id=com.spudg.insurely">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.spudg.insurely"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     src={insurely}
                     alt="Insurely"
@@ -102,7 +118,11 @@ function App() {
             <div class="w3-quarter w3-section"></div>
             <div class="w3-quarter w3-section">
               <AnimationWrapper>
-                <a href="https://play.google.com/store/apps/details?id=com.spudg.tricrypto">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.spudg.tricrypto"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     src={tricrypto}
                     alt="triCrypto"
@@ -117,7 +137,11 @@ function App() {
             </div>
             <div class="w3-quarter w3-section">
               <AnimationWrapper>
-                <a href="https://play.google.com/store/apps/details?id=com.spudg.fromzero">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.spudg.fromzero"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     src={fromzero}
                     alt="FromZero"
