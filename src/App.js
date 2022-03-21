@@ -163,18 +163,6 @@ function App() {
             <h4 class="w3-text-black">Feedback or suggestions?</h4>
             <hr style={{ width: "100px", margin: "auto" }} />
             <div class="w3-section">
-              <p>
-                <i class="fa fa-envelope fa-fw w3-text-black w3-xlarge w3-margin-right">
-                  {" "}
-                </i>
-                Email: spudgstudios@gmail.com
-              </p>
-              <p>
-                <i class="fa fa-play fa-fw w3-text-black w3-xlarge w3-margin-right">
-                  {" "}
-                </i>
-                Google Play: Spudg Studios
-              </p>
               <ContactForm />
             </div>
             <br />
