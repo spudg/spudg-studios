@@ -21,7 +21,7 @@ function App() {
           <a href="/">
             <img
               src={logo}
-              alt="boy"
+              alt="Spudg Studios"
               class="w3-image"
               width="496"
               height="554"
@@ -44,7 +44,7 @@ function App() {
                 <a href="https://play.google.com/store/apps/details?id=com.spudg.sentient">
                   <img
                     src={sentient}
-                    alt="boy"
+                    alt="Sentient"
                     class="w3-image"
                     width="150"
                     height="150"
@@ -59,7 +59,7 @@ function App() {
                 <a href="https://play.google.com/store/apps/details?id=com.spudg.myzo">
                   <img
                     src={myzo}
-                    alt="boy"
+                    alt="Myzo"
                     class="w3-image"
                     width="150"
                     height="150"
@@ -74,7 +74,7 @@ function App() {
                 <a href="https://play.google.com/store/apps/details?id=com.spudg.calculat">
                   <img
                     src={calculat}
-                    alt="boy"
+                    alt="Calculat"
                     class="w3-image"
                     width="150"
                     height="150"
@@ -89,7 +89,7 @@ function App() {
                 <a href="https://play.google.com/store/apps/details?id=com.spudg.insurely">
                   <img
                     src={insurely}
-                    alt="boy"
+                    alt="Insurely"
                     class="w3-image"
                     width="150"
                     height="150"
@@ -105,7 +105,7 @@ function App() {
                 <a href="https://play.google.com/store/apps/details?id=com.spudg.tricrypto">
                   <img
                     src={tricrypto}
-                    alt="boy"
+                    alt="triCrypto"
                     class="w3-image"
                     width="150"
                     height="150"
@@ -120,7 +120,7 @@ function App() {
                 <a href="https://play.google.com/store/apps/details?id=com.spudg.fromzero">
                   <img
                     src={fromzero}
-                    alt="boy"
+                    alt="FromZero"
                     class="w3-image"
                     width="150"
                     height="150"
