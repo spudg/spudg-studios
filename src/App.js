@@ -133,7 +133,7 @@ function App() {
                       >
                         Calculat is a free library of financial calculators
                         designed to simplify the calculation of often complex
-                        loans, mortgages, compound returns are more.
+                        loans, mortgages, compound returns and more.
                       </div>
                     }
                     followCursor
