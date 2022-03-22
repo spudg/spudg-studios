@@ -9,6 +9,7 @@ import calculat from "./images/calculat.png";
 import logo from "./images/logo.png";
 import { AnimationWrapper } from "react-hover-animation";
 import ContactForm from "./components/ContactForm";
+import { Tooltip } from "@mui/material";
 
 function App() {
   return (
@@ -46,13 +47,31 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img
-                    src={sentient}
-                    alt="Sentient"
-                    class="w3-image"
-                    width="150"
-                    height="150"
-                  />
+                  <Tooltip
+                    title={
+                      <div
+                        style={{
+                          fontFamily: "Nunito",
+                          fontSize: "16px",
+                          justifyContent: "center",
+                          textAlign: "center",
+                        }}
+                      >
+                        Sentient is a simple mood tracker where you can post
+                        ratings and see a visualisation of how your mood changes
+                        over days and months.
+                      </div>
+                    }
+                    followCursor
+                  >
+                    <img
+                      src={sentient}
+                      alt="Sentient"
+                      class="w3-image"
+                      width="150"
+                      height="150"
+                    />
+                  </Tooltip>
                 </a>
                 <br />
                 Sentient
@@ -65,13 +84,31 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img
-                    src={myzo}
-                    alt="Myzo"
-                    class="w3-image"
-                    width="150"
-                    height="150"
-                  />
+                  <Tooltip
+                    title={
+                      <div
+                        style={{
+                          fontFamily: "Nunito",
+                          fontSize: "16px",
+                          justifyContent: "center",
+                          textAlign: "center",
+                        }}
+                      >
+                        Myzo is a finance tracker that allows you to record your
+                        income and expenditure over time, add custom accounts,
+                        categories and export / import your data locally.
+                      </div>
+                    }
+                    followCursor
+                  >
+                    <img
+                      src={myzo}
+                      alt="Myzo"
+                      class="w3-image"
+                      width="150"
+                      height="150"
+                    />
+                  </Tooltip>
                 </a>
                 <br />
                 Myzo
@@ -84,13 +121,31 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img
-                    src={calculat}
-                    alt="Calculat"
-                    class="w3-image"
-                    width="150"
-                    height="150"
-                  />
+                  <Tooltip
+                    title={
+                      <div
+                        style={{
+                          fontFamily: "Nunito",
+                          fontSize: "16px",
+                          justifyContent: "center",
+                          textAlign: "center",
+                        }}
+                      >
+                        Calculat is a free library of financial calculators
+                        designed to simplify the calculation of often complex
+                        loans, mortgages, compound returns are more.
+                      </div>
+                    }
+                    followCursor
+                  >
+                    <img
+                      src={calculat}
+                      alt="Calculat"
+                      class="w3-image"
+                      width="150"
+                      height="150"
+                    />
+                  </Tooltip>
                 </a>
                 <br />
                 Calculat
@@ -103,13 +158,32 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img
-                    src={insurely}
-                    alt="Insurely"
-                    class="w3-image"
-                    width="150"
-                    height="150"
-                  />
+                  <Tooltip
+                    title={
+                      <div
+                        style={{
+                          fontFamily: "Nunito",
+                          fontSize: "16px",
+                          justifyContent: "center",
+                          textAlign: "center",
+                        }}
+                      >
+                        This is a simple application to help you keep track of
+                        insurance policy renewal dates to prevent auto-renewals
+                        at higher prices than you otherwise would have had after
+                        shopping around for the best deals.
+                      </div>
+                    }
+                    followCursor
+                  >
+                    <img
+                      src={insurely}
+                      alt="Insurely"
+                      class="w3-image"
+                      width="150"
+                      height="150"
+                    />
+                  </Tooltip>
                 </a>
                 <br />
                 Insurely
@@ -123,13 +197,31 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img
-                    src={tricrypto}
-                    alt="triCrypto"
-                    class="w3-image"
-                    width="150"
-                    height="150"
-                  />
+                  <Tooltip
+                    title={
+                      <div
+                        style={{
+                          fontFamily: "Nunito",
+                          fontSize: "16px",
+                          justifyContent: "center",
+                          textAlign: "center",
+                        }}
+                      >
+                        triCrypto is a simple practice portfolio tracker for
+                        people who want to try out the world of crypto before
+                        investing real money.
+                      </div>
+                    }
+                    followCursor
+                  >
+                    <img
+                      src={tricrypto}
+                      alt="triCrypto"
+                      class="w3-image"
+                      width="150"
+                      height="150"
+                    />
+                  </Tooltip>
                 </a>
                 <br />
                 triCrypto
@@ -142,13 +234,32 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img
-                    src={fromzero}
-                    alt="FromZero"
-                    class="w3-image"
-                    width="150"
-                    height="150"
-                  />
+                  <Tooltip
+                    title={
+                      <div
+                        style={{
+                          fontFamily: "Nunito",
+                          fontSize: "16px",
+                          justifyContent: "center",
+                          textAlign: "center",
+                        }}
+                      >
+                        FromZero is a simple and easy to use application,
+                        allowing you to record monthly valuations for assets and
+                        liabilities as well as displaying the change in
+                        valuations over time.
+                      </div>
+                    }
+                    followCursor
+                  >
+                    <img
+                      src={fromzero}
+                      alt="FromZero"
+                      class="w3-image"
+                      width="150"
+                      height="150"
+                    />
+                  </Tooltip>
                 </a>
                 <br />
                 FromZero
