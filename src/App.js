@@ -48,6 +48,7 @@ function App() {
                   rel="noreferrer noopener"
                 >
                   <Tooltip
+                    disableTouchListener
                     title={
                       <div
                         style={{
@@ -85,6 +86,7 @@ function App() {
                   rel="noreferrer noopener"
                 >
                   <Tooltip
+                    disableTouchListener
                     title={
                       <div
                         style={{
@@ -122,6 +124,7 @@ function App() {
                   rel="noreferrer noopener"
                 >
                   <Tooltip
+                    disableTouchListener
                     title={
                       <div
                         style={{
@@ -159,6 +162,7 @@ function App() {
                   rel="noreferrer noopener"
                 >
                   <Tooltip
+                    disableTouchListener
                     title={
                       <div
                         style={{
@@ -198,6 +202,7 @@ function App() {
                   rel="noreferrer noopener"
                 >
                   <Tooltip
+                    disableTouchListener
                     title={
                       <div
                         style={{
@@ -235,6 +240,7 @@ function App() {
                   rel="noreferrer noopener"
                 >
                   <Tooltip
+                    disableTouchListener
                     title={
                       <div
                         style={{
